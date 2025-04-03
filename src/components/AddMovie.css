@@ -1,0 +1,74 @@
+/* src/components/AddMovie.css */
+
+.add-movie-container {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #000000;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .add-movie-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-movie-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-movie-form label {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .add-movie-form input,
+  .add-movie-form select,
+  .add-movie-form textarea {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .add-movie-form textarea {
+    resize: vertical;
+    min-height: 80px;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .button-group button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 48%;
+  }
+  
+  .submit-btn {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .submit-btn:hover {
+    background-color: #218838;
+  }
+  
+  .cancel-btn {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .cancel-btn:hover {
+    background-color: #c82333;
+  }
+  
